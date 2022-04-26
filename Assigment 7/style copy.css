@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: bisque;
+}
+header {
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding-left: 10%;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 60px;
+  padding-top: 25px;
+}
+h1 {
+  position: relative;
+  padding-top: 15%;
+  padding-left: 35%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  padding-left: 45%;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.image-shop {
+  padding-left: 50%;
+  margin: 5px;
+}
+/* form style */
+input,select,textarea{
+    display: block;
+    margin-bottom: 1em;
+    
+}
+lebel{
+    float: left;
+    margin-right: 1em;
+}
+div.size ul{
+    list-style-type: none;
+    padding: 20px;
+}
+ul.size  li input{
+    float: left;
+    padding-bottom: 15px;
+}
+div.size li{
+    border:1px transparent solid;
+    width: 13em;
+    display: flex;
+    margin-left: 20%;
+    padding-left: 25%;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 15px;
+    padding-right: 6em
+    
+}
+div.experienc{
+    float: none;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+div.paragraph{
+    margin: 15px;
+    padding-right: 65px
+}
+div.experience{
+    float: none;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+textarea{
+    width: 50%;
+    min-height: 200px;
+    display: block;
+     float: left;
+   
+        
+}
+.btn{
+    display: inline;
+    background-color:dimgrey;
+    color: white;
+    padding: 1px 20px;
+    border-radius: 0.625em;
+    border:none;
+    cursor: pointer;
+}
+rate{
+    display: block
+}
+.footer{
+    display: block;
+    margin-bottom: 0;
+}

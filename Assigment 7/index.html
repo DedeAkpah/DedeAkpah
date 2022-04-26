@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta
+      name="description"
+      content="Shop quality cloth that respect your values."
+    />
+    <meta name="author" content="Dede Akpah" />
+    <title>God's Standard</title>
+    <link rel="stylesheet" href="Untitled-2.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">ADULT</a></li>
+        <li><a href="">YOUNG ADULT</a></li>
+        <li><a href="">TEENAGE</a></li>
+        <li><a href="">ACCESSORIES</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
+    </nav>
+    <h1>Welcom to God's standard Shop</h1>
+    <div class="image-shop">
+      <img
+        src="image/Screen%20Shot%202022-01-06%20at%201.20.12%20PM.png"
+        alt="hoodie"
+        width="200"
+        height="200"
+      />
+    </div>
+    <p>This is the item you selected, select a size.</p>
+    <!--start of form-->
+    <form>
+      <fieldset>
+        <legend>Select size</legend>
+        <div class="size">
+          <ul>
+            <li>
+              <input
+                type="checkbox"
+                name="size"
+                id="smale"
+                value="Small size"
+              /><label>Small </label>
+              &emsp;
+              <input
+                type="checkbox"
+                name="size"
+                id="Medium"
+                value="medium size"
+              /><label>Medium </label>&emsp;
+              <input
+                type="checkbox"
+                name="size"
+                id="Large"
+                value="large size"
+              /><label>Large </label>
+            </li>
+          </ul>
+        </div>
+      </fieldset>
+      <div class="paragraph">
+        <p>
+          In order to checkout please create an account by filling out this form
+          below.
+        </p>
+      </div>
+      <div class="form">
+        First name:
+        <input
+          type="text"
+          name="name"
+          id="firstname"
+          size="20"
+          placeholder="Enter your first name"
+        />
+
+        <label> Last name:</label>
+        <input
+          type="text"
+          id="lastname"
+          name="name"
+          size="20"
+          placeholder="Enter your last name"
+        />
+
+        <label>Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          size="20"
+          placeholder="Email address"
+        />
+
+        Password:
+        <input
+          type="text"
+          id="password"
+          name="password"
+          size="20"
+          placeholder="Password"
+        />
+
+        <input type="submit" id="submit" value=" Submit" class="btn" />
+        <input type="reset" id="reset" value="Reset form" class="btn" />
+      </div>
+
+      <div class="experience">
+        <p>Describe your shopping with God's Standard!</p>
+        <textarea name="expreience" id="experience"></textarea>
+        <button onclick="btnCliked();">submit</button>
+        <script>
+          function btnCliked() {
+            alert("Buttom Cliked");
+          }
+        </script>
+
+        <script>
+          alert("Thank you");
+        </script>
+      </div>
+      <p>How would you rate God's Standard?</p>
+      <select id="rate" name="rate">
+        <option value="great">Great</option>
+        <option value="good">Good</option>
+        <option value="bad">Bad</option>
+      </select>
+    </form>
+    <footer>
+      <section class="footer">
+        <h5>Due April 24, 2020</h5>
+        <a href="mailto:dakpah.student.clayton.edu">Email Address></a>
+      </section>
+    </footer>
+  </body>
+</html>
